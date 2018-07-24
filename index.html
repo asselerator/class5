@@ -3,10 +3,71 @@
   <head>
     <meta charset="UTF-8">
     <title>Assel's Blog</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-      Hello World!
-      <div class="background image"></div>
+      <div class="background-image">
+          <nav class="navigation-bar">
+              <ul class="navigation-items">
+                  <a href='#about-list-item'>About</a>
+                  <a href='#contact-list-item'>Contact</a>
+                  <a href='#blog-list-item'>Blog</a>
+              </ul>
+          </nav>
+          <div class="first-section">
+              <h1 class="title-1">Hi I'm Assel</h1>
+              <h2 class="title-2">Welcome to my wesbsite</h2>
+          </div>
+      </div>
+      <div class="container">
+          <div class="second-section">
+              <h2 id="about-list-item">About Me</h2>
+          </div>
+          <div class="skills-interests-container">
+              <div class="skills">
+                  <h3 class="skills_title">My Skills</h3>
+                  <ul class="skills_list">
+                      <li>Coding</li>
+                      <li>Googling</li>
+                      <li>Coding</li>
+                  </ul>
+              </div>
+              <div class="interests">
+                  <h3 class='interests_title'>My Interests</h3>
+                  <ul class="interests_list">
+                      <li>Reading</li>
+                      <li>Watching TV/Movies</li>
+                      <li>Learning</li>
+                  </ul>
+              </div>
+          </div>
+          <hr>
+              <div id="contact-list-item">
+                  <h3 class="contact-title">Contact Me</h3>
+                  <form id="contact_me">
+                      <div>
+                          Name:<br>
+                          <input required="required" type="text">
+                      </div>
+                      <div>
+                          Email:<br>
+                          <input required="required" type="email">
+                      </div>
+                      <div>
+                          Message:<br>
+                          <textarea></textarea>
+                      </div>
+                      <div>
+                          <input class="submit-button" required="required" type="submit" value="submit">
+                      </div>
+                  </form>
+              </div>
+          </hr>
+        </div>
+        <footer>
+            <div class="copyright">
+                <p>Copyright (c) 2018 Copyright Assel All Rights Reserved.</p>
+            </div>
+        </footer>
   </body>
 </html>
